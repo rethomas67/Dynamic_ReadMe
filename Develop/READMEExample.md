@@ -1,5 +1,7 @@
 # t
 
+![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+
 ## Description
 
 ### d
@@ -14,32 +16,12 @@
 
 ## Installation
 
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
-i
+### i
 
 ## Usage
 
-u
+### u
 
 ## License
 
-This application is covered by [BSD 3 - Clause License.](https://opensource.org/licenses/BSD-3-Clause)
+### This application is covered by [BSD 3 - Clause License.](https://opensource.org/licenses/BSD-3-Clause)
