@@ -1,6 +1,6 @@
 # t
 
-![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
 
 ## Description
 
@@ -12,7 +12,9 @@
 
 ### [Usage](#usage)
 
-### [License](#license)
+### [Contributions](#contributions)
+
+### [Questions](#questions)
 
 ## Installation
 
@@ -24,4 +26,18 @@
 
 ## License
 
-### This application is covered by [BSD 3 - Clause License.](https://opensource.org/licenses/BSD-3-Clause)
+### This application is covered by [GNU GPL v3.](https://www.gnu.org/licenses/gpl-3.0)
+
+## Contributions
+
+### c
+
+## Tests
+
+### ta
+
+## Questions
+
+### The Github repository for the application cna be forked or reviewed at: [Github](https://www.google.com).
+
+### For additional questions about the application, please reach out to me at: rets08@gmail.com.
