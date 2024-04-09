@@ -6,9 +6,32 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-  "What is the title of your project? ",
-  "Please enter a description for your project: ",
-  "Please enter any installation instructions: ",
+  {
+    type: "input",
+    name: "title",
+    message: "What is the title of your project? ",
+  },
+  {
+    type: "input",
+    name: "description",
+    message: "Please enter a description for your project: ",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message: "Please enter any installation instructions: ",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Please provide usage information for the project: ",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "Which license would you like to cover your application under? ",
+    choices: ["BSD 3 - Clause License", "GNU GPL v3", "MIT", "None"],
+  },
 ];
 
 // TODO: Create a function to write README file
@@ -24,27 +47,9 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init(questions) {
   console.log(questions);
-  inquirer
-    .prompt([
-      {
-        type: "input",
-        name: "title",
-        message: questions[0],
-      },
-      {
-        type: "input",
-        name: "description",
-        message: questions[1],
-      },
-      {
-        type: "input",
-        name: "installation",
-        message: questions[2],
-      },
-    ])
-    .then((data) => {
-      writeToFile("READMEExample.md", data);
-    });
+  inquirer.prompt(questions).then((data) => {
+    writeToFile("READMEExample.md", data);
+  });
 }
 
 // Function call to initialize app
