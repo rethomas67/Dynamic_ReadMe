@@ -1,43 +1,57 @@
-# t
+# Sample ReadMe 
+  
+ ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
-
+  
 ## Description
+    
+### Create a professional README.MD file. The Inquirer package is used to prompt the user to enter the title of the project and information to the sections labeled Description, Installation, Usage, License, Contributing, Tests, and Questions. 
 
-### d
-
+    
 ## Table of Contents
-
+    
 ### [Installation](#installation)
-
+    
 ### [Usage](#usage)
-
+    
+### [License](#license)
+    
 ### [Contributions](#contributions)
-
+    
+### [Tests](#tests)
+    
 ### [Questions](#questions)
+    
 
+    
 ## Installation
+    
+### If the application doesn't run, please install Inquirer version 8.2.4 
 
-### i
-
+    
 ## Usage
+    
+### The user is presented with a set of prompts from the Inquirer Package to populate sections for a Professional README.md file. When the user enters a title, it is presented as a title for the readme. 
 
-### u
-
+    
 ## License
+    
+### This application is covered by [MIT.](https://opensource.org/licenses/MIT) 
 
-### This application is covered by [GNU GPL v3.](https://www.gnu.org/licenses/gpl-3.0)
-
+    
 ## Contributions
+    
+### Thanks to Robbert, Michael, and Nick. 
 
-### c
-
+    
 ## Tests
+    
+### Test for passing data from Inquirer to my customized library. 
 
-### ta
-
+    
 ## Questions
-
-### The Github repository for the application cna be forked or reviewed at: [Github](https://www.google.com).
-
+    
+### The Github repository for the application can be forked or reviewed at: [Github](https://github.com/rethomas67). 
+    
 ### For additional questions about the application, please reach out to me at: rets08@gmail.com.
+

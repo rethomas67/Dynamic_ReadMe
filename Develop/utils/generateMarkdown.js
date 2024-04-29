@@ -78,7 +78,7 @@ function generateMarkdown(data) {
   }
   //add the markdown text if a GitHub profile was added
   if (data.github.length > 0) {
-    githubText = `The Github repository for the application cna be forked or reviewed at: [Github](${data.github}).`;
+    githubText = `The Github repository for the application can be forked or reviewed at: [Github](${data.github}).`;
   }
 
   // returns the markdown string to write to the .md file
@@ -94,7 +94,9 @@ function generateMarkdown(data) {
     \n## Table of Contents
     \n### [Installation](#installation)
     \n### [Usage](#usage)
+    \n### [License](#license)
     \n### [Contributions](#contributions)
+    \n### [Tests](#tests)
     \n### [Questions](#questions)
     \n
     \n## Installation
