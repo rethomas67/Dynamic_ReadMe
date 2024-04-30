@@ -1,11 +1,11 @@
-# Sample ReadMe 
+# Sample Readme 
   
  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   
 ## Description
     
-### Create a professional README.MD file. The Inquirer package is used to prompt the user to enter the title of the project and information to the sections labeled Description, Installation, Usage, License, Contributing, Tests, and Questions. 
+### Create a professional README.MD file. The Inquirer package is used to prompt the user to enter the title of the project and information to the sections labeled Description, Installation, Usage, License, Contributing, Tests, and Questions. A class generateMarkdown is used to generate the user input into a professional markdown file. 
 
     
 ## Table of Contents
@@ -26,7 +26,7 @@
     
 ## Installation
     
-### If the application doesn't run, please install Inquirer version 8.2.4 
+### If the application doesn't run, install Inquirer 8.2.4. 
 
     
 ## Usage
@@ -41,12 +41,12 @@
     
 ## Contributions
     
-### Thanks to Robbert, Michael, and Nick. 
+### Thanks to Robbert, Mike, and Nick. 
 
     
 ## Tests
     
-### Test for passing data from Inquirer to my customized library. 
+### Test for importin class methods and passing Inquirer data to the methods. 
 
     
 ## Questions
